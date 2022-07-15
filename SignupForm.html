@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./SignupForm.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="main-element">
+    <div class="image-side">
+      <img src="./assets/softobiz.webp" alt="" class="login-img">
+    </div>
+    <div class="form-side">
+      <div class="login-para">
+        <p>
+          This is not real online service ! You need something <br> like this in
+          your life to help relize your deepest dream.
+        </p>
+        <p>Sign up Now to Get Started</p>
+      </div>
+      <h4 style="font-style: italic; margin-top: 1rem;">Let us do this</h4>
+     <div class="form-container">
+      <form action="" method="post">
+          <div class="flex-container">
+            <div class="flex-item-left">
+              <label for="firstName">First Name</label><br /><br />
+              <input type="text" id="firstName" placeholder="Please Enter First Name" required />
+            </div>
+            <div class="flex-item-right">
+              <label for="lastName">Last Name</label><br /><br />
+              <input type="text" id="lastName" placeholder="Please Enter Last Name" required />
+            </div>
+          </div>
+        <div class="flex-container">
+          <div class="flex-item-left">
+            <label for="email">Email</label><br /><br />
+            <input type="email" id="email" placeholder="Please Enter Email" required />
+          </div>
+          <div class="flex-item-right">
+            <label for="phoneNumber">Phone Number</label><br /><br />
+            <input type="number" id="phoneNumber" placeholder="Please Enter Phone number" required />
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="flex-item-left">
+            <div>
+              <label for="password">Password</label><br /><br />
+              <input type="password" id="password" placeholder="Please Enter password" required />
+            </div>
+          </div>
+          <div class="flex-item-right">
+            <label for="confirmPassword">Confirm Password</label><br /><br />
+            <input type="password" id="confirmPassword" placeholder="Please Enter password" required />
+          </div>
+        </div>
+
+        <input type="submit" value="Create Account" id="form-submit-btn" />
+      </form>
+
+     </div>
+     <p style="margin-top: 10px;">Already have an account ? <a href="">Log In</a></p>
+
+    </div>
+  </div>
+</body>
+
+</html>
